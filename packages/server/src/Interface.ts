@@ -148,6 +148,18 @@ export interface IVariable {
     workspaceId?: string
 }
 
+export type SettingValueType = 'string' | 'number' | 'boolean' | 'json'
+
+export interface ISetting {
+    id: string
+    key: string
+    value: string | null
+    valueType: SettingValueType
+    updatedDate: Date
+    createdDate: Date
+    workspaceId?: string | null
+}
+
 export interface ILead {
     id: string
     name?: string

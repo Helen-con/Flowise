@@ -5,6 +5,7 @@ import { Credential } from './Credential'
 import { Tool } from './Tool'
 import { Assistant } from './Assistant'
 import { Variable } from './Variable'
+import { Setting } from './Setting'
 import { DocumentStore } from './DocumentStore'
 import { DocumentStoreFileChunk } from './DocumentStoreFileChunk'
 import { Lead } from './Lead'
@@ -34,6 +35,7 @@ export const entities = {
     Tool,
     Assistant,
     Variable,
+    Setting,
     UpsertHistory,
     DocumentStore,
     DocumentStoreFileChunk,

@@ -4,5 +4,6 @@ const router = express.Router()
 
 // CREATE
 router.get('/', settingsController.getSettingsList)
+router.put('/', settingsController.updateSettings)
 
 export default router
